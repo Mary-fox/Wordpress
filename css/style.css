@@ -134,7 +134,7 @@ h2.title {
 .waiting_wrapper {
     margin-top: 45px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .waiting .waiting_wrapper .waiting_item {
