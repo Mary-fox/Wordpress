@@ -70,7 +70,7 @@ h2.title {
     font-family: "Roboto - Bold";
     color: #F9BF3B;
 }
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0 auto;
     margin-top: 72px;
@@ -87,6 +87,9 @@ h2.title {
     line-height: 24px;
     text-transform: uppercase;
     cursor: pointer;
+}
+.gift .gift_btn {
+    margin-top: 52px;
 }
 .more {
     margin-top: 70.5px;
@@ -218,3 +221,21 @@ color: #efefef;
     line-height: 20px;
     text-align: center;
 }
+.gift {
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 87px 0;
+}
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+.gift .gift_text {
+    margin-top: 42px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+} 
