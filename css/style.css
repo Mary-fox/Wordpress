@@ -163,15 +163,17 @@ color: #efefef;
     min-height: 550px;
     padding: 102px 0 107px 0;
 } 
-
-.optimization .optimization_header, {
+.optimization2_header {
     margin-left: 367px;
-    font-family: Roboto;
-    font-style: normal;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 30px;
     font-weight: 400;
-    font-size: 29px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: left;
     text-transform: uppercase;
-    color: #299CBD;
 }
 .optimization .optimization_text {
     margin-top: 25px;
