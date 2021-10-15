@@ -112,7 +112,7 @@ h2.title {
    height: 607px;
    padding: 88px 0 75px 0;
 }
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header, .finish .finish_header, .veb .veb_header {
     font-family: "Roboto";  
     font-size: 30px;
     text-align: center;
@@ -121,6 +121,9 @@ h2.title {
 }
 .finish .finish_header {
 color: #efefef;
+}
+.veb .veb_header {
+  margin-top: 37px;  
 }
 .waiting .waiting_divider, .finish_divider {
     display: block;
@@ -161,7 +164,7 @@ color: #efefef;
     padding: 102px 0 107px 0;
 } 
 
-.optimization .optimization_header {
+.optimization .optimization_header, {
     margin-left: 367px;
     font-family: Roboto;
     font-style: normal;
@@ -226,7 +229,7 @@ color: #efefef;
     background-color: #efefef;
     padding: 86px 0 87px 0;
 }
-.gift .gift_img {
+.gift .gift_img, .veb .veb_img{
     display: block;
     margin: 0 auto;
 }
@@ -239,3 +242,62 @@ color: #efefef;
     line-height: 43px;
     text-align: center;
 } 
+.veb {
+    min-height: 681px;
+    padding: 89px 0 64px 0;
+} 
+.veb .veb_time {
+    margin-top: 30px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.veb .veb_text {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+
+}
+footer {
+    min-height:166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+.wrapper_footer {
+    display: flex;
+    justify-content: center;
+}
+footer .footer_link, footer .footer_tel {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-decoration: underline;
+    }
+
+    footer span {
+        color: #888888;
+        padding: 0 5px 0 5px;
+    }
+    footer .footer_tel {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+        text-decoration: none;
+    }
+  
